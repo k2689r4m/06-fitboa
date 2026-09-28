@@ -1,0 +1,111 @@
+node:events:504
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/home/fitboa/Fitboa/src/init.js:16:27)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1357:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+node:events:504
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/home/fitboa/Fitboa/src/init.js:16:27)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1357:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+node:events:504
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/home/fitboa/Fitboa/src/init.js:16:27)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1357:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+node:events:504
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/home/fitboa/Fitboa/src/init.js:16:27)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (/home/fitboa/Fitboa/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1357:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+/home/fitboa/Fitboa/src/controllers/user/payController.js:57
+            custom_UId = customOrderId[1].slice(1);
+                                          ^
+
+TypeError: Cannot read properties of undefined (reading 'slice')
+    at _callee$ (/home/fitboa/Fitboa/src/controllers/user/payController.js:33:41)
+    at tryCatch (/home/fitboa/Fitboa/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/fitboa/Fitboa/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/fitboa/Fitboa/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/fitboa/Fitboa/src/controllers/user/payController.js:28:103)
+    at _next (/home/fitboa/Fitboa/src/controllers/user/payController.js:30:194)
+    at /home/fitboa/Fitboa/src/controllers/user/payController.js:30:364
+    at new Promise (<anonymous>)
+    at /home/fitboa/Fitboa/src/controllers/user/payController.js:30:97
+    at postInicis (/home/fitboa/Fitboa/src/controllers/user/payController.js:18:24)
